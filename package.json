@@ -3,7 +3,7 @@
     "@aws-sdk/client-transcribe-streaming": "^3.848.0",
     "@aws-sdk/node-http-handler": "^3.374.0",
     "aws-sdk": "^2.1692.0",
-    "dotenv": "^17.2.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "ws": "^8.18.3"
   }
