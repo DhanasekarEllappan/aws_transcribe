@@ -7,6 +7,8 @@ const { NodeHttp2Handler } = require('@aws-sdk/node-http-handler');
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.get('/helth', (req, res) => {  res.send('Running');});
+
 // Configure AWS client
 function createTranscribeClient() {
   return new TranscribeStreamingClient({
